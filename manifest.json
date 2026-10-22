@@ -1,0 +1,23 @@
+{
+  "model": {
+    "name": "kokoro-v1.0.onnx",
+    "bytes": 325505369,
+    "sha256": "0af610013a4c85c5498b7e3c93a266de9c0bb6c2ec2bbfadf0c9a293a1534d9c",
+    "parts": [
+      "kokoro-v1.0.onnx.part00",
+      "kokoro-v1.0.onnx.part01",
+      "kokoro-v1.0.onnx.part02",
+      "kokoro-v1.0.onnx.part03",
+      "kokoro-v1.0.onnx.part04",
+      "kokoro-v1.0.onnx.part05",
+      "kokoro-v1.0.onnx.part06"
+    ],
+    "source": "hexgrad/Kokoro-82M kokoro-v1_0.pth exported with waveform + duration outputs (kokoro-onnx scripts/export.py)"
+  },
+  "voice": {
+    "name": "am_michael",
+    "file": "am_michael.npy",
+    "sha256": "bbb62b3eae08e060f2fcf972d5434144add02bc5f2cc592403f90cab40ae1f4f"
+  },
+  "spacy_wheel": "en_core_web_sm-3.8.0-py3-none-any.whl"
+}
